@@ -1,0 +1,244 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Caprasimo&family=Open+Sans:wght@300&display=swap');
+
+/* Global styles */
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: #30A5EA;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.ajudato {
+    position: absolute;
+    top: 1rem;
+    width: 15rem;
+}
+
+/* Search box styles */
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #30A5EA;
+    border-radius: 40px;
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.search-txt {
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.search-bnt img {
+    margin: 1.5rem;
+    width: 25px;
+    height: 25px;
+}
+
+/* H1 element styles */
+.h1 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 24px;
+}
+
+/* Menu styles */
+#menu-h {
+    margin-top: 20%;
+    padding: 0;
+    background-color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#menu-h li {
+    display: inline;
+}
+
+#menu-h li a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.8s;
+}
+
+#menu-h a:hover {
+    background-color: rgba(99, 198, 251, 0.443);
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+/* Donation button styles */
+.button {
+    text-align: center;
+    margin-top: 55%;
+    border-radius: 10px;
+    background-color: #056BB3;
+    font-size: 16px;
+    width: 14px;
+    height: 32px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.button a {
+    text-decoration: none;
+    border-radius: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Card styles */
+/* Card container styles */
+.card-container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    margin: 0.5rem;
+    width: 9rem;
+    height: 11rem;
+    border-radius: 27px;
+    background-color: #30A5EA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.card-text {
+    overflow: auto;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+/* Read more button styles */
+.read-more-button {
+    height: 2rem;
+    width: 9rem;
+    background-color: #056BB3;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto;
+}
+
+.read-more-button:hover {
+    background-color: #04589b;
+}
+
+/* Card container for additional cards */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.card-container h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #056BB3;
+    margin: 10px 0;
+}
+
+/* Card-1 styles */
+.card-1 {
+    width: 10rem;
+    max-width: 15rem;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+.card-text-1 {
+    padding: 4px;
+    text-align: right;
+    overflow: auto;
+    flex-grow: 1;
+}
+
+.card-1 h2 {
+    color: #056BB3;
+}
+
+.card-1 .read-more-button {
+    background-color: #056BB3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Center the image within the card */
+.card-1 img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Card-1 Content styles */
+.card-1 h1, .card-1 h3 {
+    color: #056BB3;
+}
+
+/* Card-1 Date and Time styles */
+.card-1 p {
+    color: #999;
+    margin-top: 5px;
+}
+
+/* Footer styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #30A5EA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.footer-button {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 50px;
+    transition: background-color 0.5s ease;
+}
+
+.footer-button:hover {
+    background-color: #056BB3;
+}

@@ -1,0 +1,111 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif; /* Use uma fonte melhor, como Helvetica Neue */
+    background-color: #30A5EA;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    height: 38rem;
+    margin-top: 5rem;
+}
+
+button {
+  
+    text-decoration: none; /* Removido o sublinhado de link */
+   
+    outline: none; /* Remove a borda de foco ao clicar */
+}
+.minha-div {
+    text-align: center;
+    text-decoration: none;
+}
+
+.meu-botao {
+    background-color: #63C7FB;
+    color: #fff;
+    margin-top: 2.5rem;
+    width: 20rem;
+    height: 4rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.sair {
+    background-color: #D05A57;
+    color: #fff;
+    margin-top: 2.5rem;
+    width: 20rem;
+    height: 4rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.pontos {
+    position: absolute;
+    top: 15rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 31px;
+    text-decoration: none;
+}
+
+.pt {
+    background-color: #0681D1;
+    color: #fff;
+    margin-top: 1rem;
+    width: 20rem;
+    height: 4rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 31px;
+    font-family: "Helvetica Neue", Arial, sans-serif; 
+    font-size: 14px; 
+    margin-bottom: 1rem; 
+    text-decoration: none;
+
+}
+
+
+p {
+    margin: 0;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+h1 {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.meu-botao:hover {
+    background-color: #0056b3;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.img {
+    text-align: center;
+}
+
+.ir {
+    float: right;
+}
